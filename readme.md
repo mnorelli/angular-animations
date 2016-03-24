@@ -41,11 +41,10 @@ As you can see, we're using a CDN for Bootstrap CSS (serving the file locally ca
 
 Let's fetch the code before we begin.
 
-`bower install angular`
-`bower install bootstrap`
-`bower install gsap --save`  (for some reason TweenMax is an alias for GreenShock)
-`bower install angular-animate`
-
+- `bower install angular`
+- `bower install bootstrap`
+- `bower install gsap --save`  (TweenMax seems to have been renamed GreenSock)
+- `bower install angular-animate`
 
 Add the following to your empty `app.js` file as a sanity check:
 
@@ -152,3 +151,4 @@ Now you need to pass `$animate` into our directive function. We can pass specifi
 [Angular Developer Guide / Animations](https://docs.angularjs.org/guide/animations)
 [Angular API Reference / ngAnimate](https://docs.angularjs.org/api/ngAnimate)
 [Angular ngClass Source Code](https://github.com/angular/angular.js/blob/master/src/ng/directive/ngClass.js)
+[This lesson was taken directly from the Egghead.io video here, with minor edits and debugging](https://egghead.io/lessons/angularjs-animating-the-angular-way)

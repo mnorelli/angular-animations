@@ -1,0 +1,21 @@
+{
+  "name": "animation-demo",
+  "homepage": "https://github.com/sf-wdi-26/modules",
+  "authors": [
+    "Ben Hulan <benhulan@gmail.com>"
+  ],
+  "description": "angular animation demo",
+  "main": "app.js",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "gsap": "^1.18.2"
+  }
+}

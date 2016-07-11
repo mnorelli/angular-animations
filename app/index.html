@@ -5,11 +5,11 @@
     <title>Angular Animations</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
 </head>
-<body ng-app="app" ng-controller="AppCtrl">
+<body ng-app="app" ng-controller="AppCtrl as app">
     <h2>Angular Animations</h2>
-    <button id="myButton" class="btn-primary">Click to fade</button>
+    <button id="myButton" class="btn-primary" ng-click="app.fadeIt()">Click to fade</button>
 
-    <div id="myBadge" class="badge">Fade me</div>
+    <div class="badge" hide-me="app.isHidden">Fade me</div>
 
     <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/gsap/src/uncompressed/TweenMax.js"></script>

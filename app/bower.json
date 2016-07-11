@@ -16,6 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "gsap": "^1.18.2"
+    "gsap": "^1.18.2",
+    "jquery": "^3.1.0",
+    "angular-animate": "^1.5.7"
   }
 }

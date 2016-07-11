@@ -26,10 +26,10 @@ app.directive("hideMe", function($animate){
 app.animation('.fade',function(){
   return {
     addClass: function(element,className) {
-      TweenMax.to($(element), 1, {opacity: 0}); 
+      TweenMax.to(element, 1, {opacity: 0}); 
     },
     removeClass: function(element,className) {
-      TweenMax.to($(element), 1, {opacity: 1}); 
+      TweenMax.to(element, 1, {opacity: 1}); 
     }
   }
 })

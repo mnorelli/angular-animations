@@ -147,8 +147,9 @@ Now you need to pass `$animate` into our directive function. We can pass specifi
 
 #### Here are some excellent links:
 
-[The `Applying Animations` step of the official Angular Tutorial](https://docs.angularjs.org/tutorial/step_12)
-[Angular Developer Guide / Animations](https://docs.angularjs.org/guide/animations)
-[Angular API Reference / ngAnimate](https://docs.angularjs.org/api/ngAnimate)
-[Angular ngClass Source Code](https://github.com/angular/angular.js/blob/master/src/ng/directive/ngClass.js)
-[This lesson was taken directly from the Egghead.io video here, with minor edits and debugging](https://egghead.io/lessons/angularjs-animating-the-angular-way)
+* [Animating the Angular Way -- Egghead.io *SOURCE OF THIS LESSON*](https://egghead.io/lessons/angularjs-animating-the-angular-way)
+* [The `Applying Animations` step of the official Angular Tutorial](https://docs.angularjs.org/tutorial/step_12)
+* [Angular Developer Guide / Animations](https://docs.angularjs.org/guide/animations)
+* [Angular API Reference / ngAnimate](https://docs.angularjs.org/api/ngAnimate)
+* [Angular ngClass Source Code](https://github.com/angular/angular.js/blob/master/src/ng/directive/ngClass.js)
+* [Animations the Angular Way - CSS Tricks](https://css-tricks.com/animations-the-angular-way/)
